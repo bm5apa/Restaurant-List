@@ -21,7 +21,8 @@ app.get('/restaurants', (req, res) => {
 
 app.get('/restaurants/:id', (req, res) => {
   const id = req.params.id
-  res.send(`reading restaurants: ${id}`)
+  const restaurant = restaurants.find((rt) => rt.id.toString() === id)
+  res.render('detail', { restaurant })
 })
 
 app.listen(port, () => {

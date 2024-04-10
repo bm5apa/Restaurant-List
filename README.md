@@ -14,18 +14,26 @@ This web is suitable for those who want to collect the location of their favorit
 ## ※Installation and Execution:
 
 1. git clone the URL
-   https://github.com/bm5apa/Restaurant-List
+```
+https://github.com/bm5apa/Restaurant-List
+```
 
-2. Open the terminal and switch to Restaurante-List
-   `cd Restaurante-List`
+3. Open the terminal and switch to Restaurante-List
+```
+cd Restaurante-List
+```
 
-3. Install npm
-   `npm install`
+5. Install npm
+```
+npm install
+```
 
-4. Execute this project 　
-   `npm run dev`
+7. Execute this project 　
+```
+npm run dev
+```
 
-5. The project is running if you see the message "The Express server is running on http://localhost:3000"
+9. The project is running if you see the message "The Express server is running on http://localhost:3000"
 
 ## ※Features:
 
